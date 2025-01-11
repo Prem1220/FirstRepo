@@ -22,3 +22,8 @@ print(arr.dtype)  # Data type of the elements
 
 print(arr[2])
 print(arr[1:4])
+
+arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr_2d[1, 2])  # Access element in 2nd row, 3rd column
+print(arr_2d[:, 1])   # Get all rows from 2nd column
+
