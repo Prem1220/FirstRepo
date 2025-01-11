@@ -19,3 +19,5 @@ print(arr.shape)  # Shape of the array
 print(arr.ndim)   # Number of dimensions (ndim)
 print(arr.size)   # Total number of elements
 print(arr.dtype)  # Data type of the elements
+
+print(arr[2])
