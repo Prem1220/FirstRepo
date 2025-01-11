@@ -8,3 +8,6 @@ print(arr_zeros)
 
 arr_ones = np.ones((2, 3))  # 2x3 array of ones
 print(arr_ones)
+
+arr_range = np.arange(0, 10, 2)  # array from 0 to 10 with a step of 2
+print(arr_range)
