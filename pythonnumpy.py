@@ -21,3 +21,4 @@ print(arr.size)   # Total number of elements
 print(arr.dtype)  # Data type of the elements
 
 print(arr[2])
+print(arr[1:4])
