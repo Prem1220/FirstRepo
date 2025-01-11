@@ -14,3 +14,8 @@ print(arr_range)
 
 arr_linspace = np.linspace(0, 10, 5)  # 5 values from 0 to 10
 print(arr_linspace)
+
+print(arr.shape)  # Shape of the array
+print(arr.ndim)   # Number of dimensions (ndim)
+print(arr.size)   # Total number of elements
+print(arr.dtype)  # Data type of the elements
