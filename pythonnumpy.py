@@ -11,3 +11,6 @@ print(arr_ones)
 
 arr_range = np.arange(0, 10, 2)  # array from 0 to 10 with a step of 2
 print(arr_range)
+
+arr_linspace = np.linspace(0, 10, 5)  # 5 values from 0 to 10
+print(arr_linspace)
