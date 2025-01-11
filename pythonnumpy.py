@@ -19,3 +19,7 @@ print(arr.shape)  # Shape of the array
 print(arr.ndim)   # Number of dimensions (ndim)
 print(arr.size)   # Total number of elements
 print(arr.dtype)  # Data type of the elements
+
+arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr_2d[1, 2])  # Access element in 2nd row, 3rd column
+print(arr_2d[:, 1])   # Get all rows from 2nd column
